@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.calendar #cal-head {
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: repeat(7, 10rem);
+}
+
+
+.calendar #cal-body {
+    display: grid;
+    column-gap: 1rem;
+    row-gap: 1rem;
+    grid-template-columns: repeat(7, 10rem);
+}
+
+#cal-body td {
+    width: 100%;
+    height: 10rem;
+    background: white;
+    border: 0.1rem solid black;
+}
+
+.modal-1 {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 10rem;
+    background-color: azure;
+}
+
+.modal-2 {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 10rem;
+    background-color: aqua;
+}
