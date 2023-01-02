@@ -56,3 +56,11 @@ function openModal(option) {
     document.querySelector(".modal-2").style.display = "flex";
   }
 }
+
+function closeModal(option) {
+  if (option == "close") {
+    document.querySelector(".modal-1").add;
+  }
+}
+
+closeModal(close);

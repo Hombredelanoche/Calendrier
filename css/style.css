@@ -23,6 +23,17 @@ body {
     grid-template-columns: repeat(7, 10rem);
 }
 
+#cal-head td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5rem;
+    background: white;
+    border: 0.1rem solid black;
+    margin-bottom: 1rem;
+}
+
 
 .calendar #cal-body {
     display: grid;
@@ -33,7 +44,7 @@ body {
 
 #cal-body td {
     width: 100%;
-    height: 10rem;
+    height: 7.5rem;
     background: white;
     border: 0.1rem solid black;
 }
